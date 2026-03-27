@@ -6,36 +6,38 @@
     <title>Sehenswürdigkeiten - Lichtenfels</title>
     <link href="style.css" rel="stylesheet">
 </head>
-<body>
+<body id="body-sehenswuerdigkeiten">
 
     <div class="seite-header">
         <a href="index.html" class="zurueck-btn"> ←Zurück</a>
         <h1>Sehenswürdigkeiten</h1>
     </div>
 
-    <div id="marktplatz" class="marktplatz" >
-        <h2>Marktplatz Lichtenfels</h2>
-        <img src="bilder\marktplatz.webp">
-        <a href="https://www.bing.com/maps/search?mepi=57%7E%7EEmbedded%7ELargeMapLink&ty=18&v=2&sV=1&qpvt=Lichtenfels+Marktplatz&FORM=
-                 MIRE&q=Marktplatz%2C+96215+Lichtenfels&ppois=50.1464466000335_11.0652310499656_Marktplatz%2C+96215+Lichtenfels_%7E&cp=
-                 50.146447%7E11.065231&lvl=7&style=r"
-                 class="link-marktplatz"><p>Marktplatz, 96215 Lichtenfels</p></a>
-    </div>
+    <div id="marktplatz_korbmarkt">
+       <div class="marktplatz">
+    <h2 class="marktplatz-text">Marktplatz Lichtenfels</h2>
+    <img src="bilder/marktplatz.webp" class="bild_marktplatz">
+    <p>Der Marktplatz in Lichtenfels ist nicht nur ein zentraler Ort für die Stadt, sondern auch ein historisch bedeutendes
+       Gebiet. Die archäologischen Grabungen auf dem Marktplatz 2 haben die Spuren der Vergangenheit der Stadt Lichtenfels
+       aufgedeckt, darunter Tierknochen, Glasflaschen und alte Keramikscherben. Diese Funde stammen aus der mittelalterlichen 
+       Bebauung und zeigen die lange Geschichte der Stadt, die bis in die Altsteinzeit zurückreicht.</p>
+    <a href="https://www.bing.com/maps/search?q=Marktplatz%2C+96215+Lichtenfels" class="link-marktplatz">Marktplatz, 96215 Lichtenfels</a>
+</div>
 
-    <div id="korbmarkt" class="korbmarkt" >
-        <h2>Korbmarkt</h2>
-        <img src="bilder/korbmarkt.webp">
-        <p>Jedes Jahr am dritten Wochenende im September steht der berühmte Lichtenfelser Korbmarkt fest im Veranstaltungskalender der 
-           Stadt Lichtenfels.</p>
-        <p>
-            Weitere Informationen über den Korbmarkt finden Sie unter:<a href="https://www.korbmarkt.de/">www.korbmarkt.de</a>
-        </p>   
-    </div>
+<div class="korbmarkt">
+    <h2 class="korbmarkt-text">Korbmarkt</h2>
+    <img src="bilder/korbmarkt.webp" class="bild_korbmarkt">
+    <p>Jedes Jahr am dritten Wochenende im September steht der berühmte Lichtenfelser Korbmarkt fest im Veranstaltungskalender der 
+       Stadt Lichtenfels. Weitere Informationen über den Korbmarkt finden Sie unter:</p>
+    <a href="https://www.korbmarkt.de/" class="link-korbmarkt">www.korbmarkt.de</a>
+</div>
+    
+    
 
-     <div id="museen" class="museen" >
-        <h2>Museen</h2>
-        <div id="heimatmuseum">
-            <img src="bilder/Heimatmuseum rund-480x480.gif">
+     <div id="museen">
+        <p><h1>Museen</h1></p>
+        <div class="heimatmuseum">
+            <img src="bilder/Heimatmuseum rund-480x480.gif" class="bild_heimatmuseum">
              <a href="https://www.lichtenfels.de/kultur-und-tourismus/lichtenfels-entdecken/museen-sammlungen/heimatmuseum"><p><b>Heimatmuseum</b></p></a> 
              <ul> Das Heimatmuseum Klosterlangheim besteht seit 1982. Der sehr aktive Verein der Heimatfreunde Klosterlangheim hatte beschlossen,
               zum 850jährigen Jubiläum der Klostergründung ein Museum einzurichten. </ul>
@@ -44,8 +46,8 @@
                         112212&lvl=15">Adresse</a>: Abt-Mösiger-Straße 4, 96215 Lichtenfels</ul>        
         </div>
 
-        <div id="fossilien_des_jura">
-            <img src="bilder/Fossilie_cut-480x480.gif">
+        <div class="fossilien_des_jura">
+            <img src="bilder/Fossilie_cut-480x480.gif" class="bild_fossiie">
             <a href="https://www.lichtenfels.de/kultur-und-tourismus/lichtenfels-entdecken/museen-sammlungen/fossilien-des-jura"><p><b>Fossilien des Jura</b></p></a>
             <ul>Die Stadt Lichtenfels hat die Sammlung „Fossilien des Jura“ im Jahr 1980 erworben. Diese Fossilien wurden über Jahrzehnte hinweg
                 mit großer Sachkenntnis von Herrn Waldemar Backert gesammelt und präpariert.</ul>
@@ -54,8 +56,8 @@
                 066374&lvl=15">Hausanschrift</a>: Oberer Torturm Marktplatz 42, 96215 Lichtenfels</ul>    
         </div>
 
-        <div id="archiv_der_zukunft">
-            <img src="bilder/Archiv_der_Zukunft_Lichtenfels.jpg">
+        <div class="archiv_der_zukunft">
+            <img src="bilder/Archiv_der_Zukunft_Lichtenfels.jpg" class="bild_archiv">
             <a href="https://www.lichtenfels.de/kultur-und-tourismus/lichtenfels-entdecken/sehenswert/das-archiv-der-zukunft"><p><b>Das "Archiv der Zukunft"</b></p></a>
             <ul>Der spektakuläre Bau soll ein Zeichen für die Veränderung in Lichtenfels sein. Die Weide, das Symbol der Korbflechterei, wurde in eine 3D-Struktur verwandelt
                  und bildet eine Brücke in die Zukunft.</ul>
@@ -64,18 +66,15 @@
                 066374&lvl=15">Hausanschrift</a>: Oberer Torturm Marktplatz 42, 96215 Lichtenfels</ul>    
         </div>
 
-        <div id="stadtschloss">
-            <img src="bilder/Stadtschloss.jpg">
+        <div class="stadtschloss">
+            <img src="bilder/Stadtschloss.jpg" class="bild_stadtschloss">
             <a href="https://www.lichtenfels.de/kultur-und-tourismus/lichtenfels-entdecken/museen-sammlungen/ausstellungen-im-stadtschloss"><p><b>Das "Ausstellungen im Stadtschloss"</b></p></a>
             <ul>Neben der Ausstellung „7 Salix und 7 Plejaden“, sind auch die Städtischen Sammlungen im Stadtschloss zu besichtigen.</ul>
             <ul><a href="https://www.bing.com/maps/search?name=Stadtschloss+Lichtenfels&trfc=&mepi=0%7E%7EEmbedded%7ELargeMapLink&FORM=MPSRPL&style=r&q=Stadtschloss+Lichtenfels&ss=id.
                 ypid%3AYN2174FDDDBD9D47F7&ppois=50.14546585083008_11.064484596252441_Stadtschloss+Lichtenfels&cp=50.145466%7E11.064485&lvl=15">
                 Adresse</a>: Stadtknechtsgasse 5 · 96215 Lichtenfels </ul>    
         </div>
-
-
-       
-    </div>
+     </div>
 
 
     
